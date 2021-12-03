@@ -1,5 +1,5 @@
 body {
-    margin: 50px;
+    /* margin: 50px; */
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -22,4 +22,50 @@ p {
     font-size: 12px;
     line-height: 12px;
     color: #333333;
+}
+
+.the-layout {
+    display: flex;
+}
+
+.the-sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(250, 251, 253, 1);
+    width: 16.5%;
+    min-height: 100vh;
+}
+
+.the-content {
+    padding: 50px;
+    padding-top: 30px;
+}
+
+.the-sidebar .brand {
+    margin-top: 40px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19.5px;
+}
+
+.the-sidebar .sidebar-nav {
+    margin-top: 100px;
+    width: 60%;
+}
+
+.the-sidebar .sidebar-nav .nav-link {
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.the-sidebar .sidebar-nav .nav-link a {
+    text-decoration: none;
+    color: #9E9E9E;
+}
+
+.the-sidebar .sidebar-nav .nav-link a:hover, .the-sidebar .sidebar-nav .nav-link .selected {
+    color: #090F31;
 }
