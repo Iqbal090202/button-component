@@ -24,6 +24,11 @@ p {
     color: #333333;
 }
 
+a {
+    text-decoration: none;
+    color: #090F31;
+}
+
 .the-layout {
     display: flex;
 }
@@ -62,7 +67,6 @@ p {
 }
 
 .the-sidebar .sidebar-nav .nav-link a {
-    text-decoration: none;
     color: #9E9E9E;
 }
 
