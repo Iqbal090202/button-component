@@ -8,8 +8,7 @@ const ButtonPage = () => {
       <h1>Buttons</h1>
         <div className="buttons">
             <div>
-                <p>&#60;Button &#47;&#62;
-                </p>
+                <p>&#60;Button &#47;&#62;</p>
                 <CustomButton theme="full">Default</CustomButton>
             </div>
             <div>
